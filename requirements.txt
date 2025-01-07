@@ -1,0 +1,8 @@
+langchain
+langgraph
+qdrant-client
+torch
+transformers
+openai
+typing-extensions
+python-dotenv
