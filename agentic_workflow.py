@@ -68,7 +68,7 @@ class OpenAI_LLM_Service:
         Initializes the OpenAI_LLM_Service object with the provided API key.
         """
         #self.api_key = os.getenv("OPENAI_API_KEY")
-        self.api_key = "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"
+        self.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError("Missing required OpenAI API key in environment variables.")
 
