@@ -14,7 +14,7 @@ import logging
 import asyncio
 from hashlib import blake2b
 import getpass
-Load environment variables
+# Load environment variables
 load_dotenv(dotenv_path="development.env")
 
 # Configure OpenAI
